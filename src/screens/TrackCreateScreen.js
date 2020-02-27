@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-navigation';
 import { Text } from 'react-native-elements';
 import Map from '../components/Map';
-import { requestPermissionsAsync, watchPositionAsync, Accuracy} from 'expo-location';
+import { requestPermissionsAsync, watchPositionAsync, Accuracy } from 'expo-location';
 
 const TrackCreateScreen = () => {
     const [err, setErr] = useState('');
